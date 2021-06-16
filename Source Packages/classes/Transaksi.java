@@ -56,7 +56,7 @@ public class Transaksi {
 
             //jika pesanan kuah, tambah spasi di awal 2
             if (m.getKategori().equals("Kuah")) {
-                pesanan = " " + pesanan;
+                pesanan = "  " + pesanan;
             }
             //tampilkan pesanan
             System.out.println(pesanan);
